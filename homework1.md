@@ -62,7 +62,7 @@ sentiment: Positive
 Probability:
 0.96
 
-*검증결과=> 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
+#### 검증결과=> 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
 
 ### 증명2. 최상급 표현 포함 vs 미포함 비교2
 
@@ -108,7 +108,7 @@ sentiment: Positive
 Probability:
 0.94
 
-*검증결과=> 검증2,3 또한 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
+#### 검증결과=> 검증2,3 또한 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
 
  
 
@@ -123,7 +123,7 @@ sentiment: Positive
 Probability:
 0.63
 
-*검증결과=> 미포함 문장일 때 긍정 수치가 0.3 감소했다.
+#### 검증결과=> 미포함 문장일 때 긍정 수치가 0.3 감소했다.
 
  
 ### 종합 검증결과=> the sweetest, most perfect, the greatest와 같은 최상급 표현이 포함된 문장이
@@ -180,7 +180,7 @@ sentiment: Positive
 Probability:
 0.84
 
-*검증결과=> 긍정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 pos 0.84로 긍정 수치가 증가했다
+#### 검증결과=> 긍정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 pos 0.84로 긍정 수치가 증가했다
 
 ### 증명3. 높은 부정 수치를 기록한 not문장을 포함시켰을 때 
 
@@ -205,10 +205,9 @@ sentiment: Negative
 Probability:
 0.66
 
-*검증결과=> 부정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 neg 0.66로 부정 감성으로 바꼈다
+#### 검증결과=> 부정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 neg 0.66로 부정 감성으로 바꼈다
 
-### 종합 검증결과=> 부정부사 not이 포함되면 부정 수치가 반드시 낮아질 것이다는 가설2는 진실이 아니다. 
-### Not이 포함된 문장해석이 긍정인지 부정인지 여부에 따라 결과값이 바뀐다. 
+### 종합 검증결과=> 부정부사 not이 포함되면 부정 수치가 반드시 낮아질 것이다는 가설2는 진실이 아니다.  Not이 포함된 문장해석이 긍정인지 부정인지 여부에 따라 결과값이 바뀐다. 
 
  
 
@@ -237,9 +236,7 @@ Probability:
 
 ## 가설3. 긍정 수치가 높게 나오는 ‘특정 표현’이 있다.
 
-#### 특정 표현= Sometimes you
-don't need a film to try and change the world, make bold political or societal
-statements or even be shocking.
+#### 특정 표현= Sometimes you don't need a film to try and change the world, make bold political or societal statements or even be shocking.
 
 ### 증명1. ’특정 표현’제거해 보기
 
@@ -281,7 +278,7 @@ sentiment: Positive
 
 Probability: 1.0
 
-*검증결과->특정 문장을 제거했을 때 pos 수치가 확연히 낮아졌고, but missed the point of what a movie is supposed to be ~ 라는
+#### 검증결과->특정 문장을 제거했을 때 pos 수치가 확연히 낮아졌고, but missed the point of what a movie is supposed to be ~ 라는
 부정적 의미를 함유한 문장과 결합 했을 때도 “특정 문장”을 포함했을 때 긍정 수치가 0.99, 1.0로 아주 높았다.
 
 ### 증명4. 부정 수치가 높은 문장을 포함시켜 보기
