@@ -64,7 +64,7 @@ Probability:
 
 검증결과=> 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
 
--검증2; 최상급 표현 포함 vs 미포함 비교2
+### 증명2. 최상급 표현 포함 vs 미포함 비교2
 
 -Review: The
 story is perfect, with the perfect
@@ -85,7 +85,7 @@ sentiment: Positive
 Probability:
 0.91
 
--검증3; 최상급 표현 포함 vs 미포함 비교3
+### 증명3. 최상급 표현 포함 vs 미포함 비교3
 
 Review: Wonderful
 contemporary story, great acting. What more can one ask for? DeNiro totally inhabits
@@ -108,12 +108,11 @@ sentiment: Positive
 Probability:
 0.94
 
-## *검증결과=> 검증2,3 또한 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
+검증결과=> 검증2,3 또한 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
 
  
 
-검증4
-최상급을 아예 문장에서 뺐을 경우
+### 검증4. 최상급문장을 미포함시켰을 경우
 
 Review: Of
 course it helps that Robert De Niro is there but what a movie! 
@@ -124,7 +123,7 @@ sentiment: Positive
 Probability:
 0.63
 
-검증결과=> 미포함 문장일 때 긍정 수치가 0.3 감소했다.
+***검증결과=> 미포함 문장일 때 긍정 수치가 0.3 감소했다.
 
  
 종합 검증결과=> the sweetest, most perfect, the greatest와 같은 최상급 표현이 포함된
