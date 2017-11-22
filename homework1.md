@@ -108,11 +108,11 @@ sentiment: Positive
 Probability:
 0.94
 
-검증결과=> 검증2,3 또한 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
+*검증결과=> 검증2,3 또한 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
 
  
 
-### 검증4. 최상급문장을 미포함시켰을 경우
+### 증명4. 최상급문장을 미포함시켰을 경우
 
 Review: Of
 course it helps that Robert De Niro is there but what a movie! 
@@ -123,15 +123,15 @@ sentiment: Positive
 Probability:
 0.63
 
-**검증결과=> 미포함 문장일 때 긍정 수치가 0.3 감소했다.
+*검증결과=> 미포함 문장일 때 긍정 수치가 0.3 감소했다.
 
  
-종합 검증결과=> the sweetest, most perfect, the greatest와 같은 최상급 표현이 포함된
-문장이 최상급이 포함 안 된 문장보다 긍정(pos) 수치가 높았다.
+### 종합 검증결과=> the sweetest, most perfect, the greatest와 같은 최상급 표현이 포함된 문장이
+### 최상급이 포함 안 된 문장보다 긍정(pos) 수치가 높았다.
 
  
 
-가설2 도출 배경 
+## 가설2 도출 배경 
 
 Review: Wonderful
 contemporary story, great acting. What more can one ask for? DeNiro totally
@@ -145,9 +145,9 @@ sentiment: Positive
 Probability:
 0.81
 
--가설2: 부정부사 not이 포함되면 부정 수치가 반드시 낮아질 것이다. 
+## 가설2. 부정부사 not이 포함되면 부정 수치가 반드시 낮아질 것이다. 
 
--검증1; not이 포함된 문장 제거
+### 증명1. not이 포함된 문장 제거
 
 -Review: Wonderful
 contemporary story, great acting. What more can one ask for? DeNiro totally
@@ -159,7 +159,7 @@ sentiment: Positive
 
 Probability: 0.8
 
--검증2; 긍정 수치로 기록된 not문장을 포함시켰을 때 
+### 증명2. 긍정 수치로 기록된 not문장을 포함시켰을 때 
 
 -Review: There
 were not sentimental predictability at all.
@@ -180,9 +180,9 @@ sentiment: Positive
 Probability:
 0.84
 
-검증결과=> 긍정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 pos 0.84로 긍정 수치가 증가했다
+*검증결과=> 긍정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 pos 0.84로 긍정 수치가 증가했다
 
--검증3; 높은 부정 수치를 기록한 not문장을 포함시켰을 때 
+### 증명3. 높은 부정 수치를 기록한 not문장을 포함시켰을 때 
 
 -Review: I just
 can't imagine anyone spending so much money to come out with dribble like this.
@@ -205,14 +205,14 @@ sentiment: Negative
 Probability:
 0.66
 
-검증결과=> 부정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 neg 0.66로 부정 감성으로 바꼈다
+*검증결과=> 부정 수치로 기록된 not 문장을 포함시켰더니 pos 0.81에서 neg 0.66로 부정 감성으로 바꼈다
 
-종합 검증결과=> 부정부사 not이 포함되면 부정 수치가 반드시 낮아질 것이다는 가설2는 진실이 아니다.
-Not이 포함된 문장해석이 긍정인지 부정인지 여부에 따라 결과값이 바뀐다. 
+### 종합 검증결과=> 부정부사 not이 포함되면 부정 수치가 반드시 낮아질 것이다는 가설2는 진실이 아니다. 
+### Not이 포함된 문장해석이 긍정인지 부정인지 여부에 따라 결과값이 바뀐다. 
 
  
 
-가설3 도출 배경 
+## 가설3 도출 배경 
 
 Review: Sometimes you don't need a film to try and change the world,
 make bold political or societal statements or even be shocking. Sometimes
@@ -235,13 +235,13 @@ Probability:
 1.0
 
 
--가설3: 긍정 수치가 높게 나오는 ‘특정 표현’이 있다.
+## 가설3. 긍정 수치가 높게 나오는 ‘특정 표현’이 있다.
 
-*특정 표현= Sometimes you
+#### 특정 표현= Sometimes you
 don't need a film to try and change the world, make bold political or societal
 statements or even be shocking.
 
--검증1; ’특정 표현’제거해 보기
+### 증명1. ’특정 표현’제거해 보기
 
 Review:
 Sometimes it's good enough to be an audience member who can just sit back,
@@ -253,7 +253,7 @@ sentiment: Positive
 Probability:
 0.53
 
--검증2; 부정적 의미를 가진 문장과 결합해 보기1
+### 증명2. 부정적 의미를 가진 문장과 결합해 보기1
 
 Review: Sometimes you don't need a film to try and change the world,
 make bold political or societal statements or even be shocking. It hits
@@ -267,7 +267,7 @@ sentiment: Positive
 Probability:
 0.99
 
--검증3; 부정적 의미를 가진 문장과 결합해 보기2
+###  증명3.부정적 의미를 가진 문장과 결합해 보기2
 
 Review: Sometimes you don't need a film to try and change the world,
 make bold political or societal statements or even be shocking. It hits
@@ -281,10 +281,10 @@ sentiment: Positive
 
 Probability: 1.0
 
-검증결과->특정 문장을 제거했을 때 pos 수치가 확연히 낮아졌고, but missed the point of what a movie is supposed to be ~ 라는
+*검증결과->특정 문장을 제거했을 때 pos 수치가 확연히 낮아졌고, but missed the point of what a movie is supposed to be ~ 라는
 부정적 의미를 함유한 문장과 결합 했을 때도 “특정 문장”을 포함했을 때 긍정 수치가 0.99, 1.0로 아주 높았다.
 
--검증4; 부정 수치가 높은 문장을 포함시켜 보기
+### 증명4. 부정 수치가 높은 문장을 포함시켜 보기
 
 Review: What a
 piece of junk. How could anyone sit through this? I was ready to throw my TV
@@ -311,7 +311,7 @@ sentiment: Positive
 Probability:
 0.85
 
-종합검증결과-> neg수치가 1에 가까운 문장을 포함시켰을 때 pos 수치가 0.85로 떨어지긴 했으나 높은 neg 수치에 비해 상대적으로 높은 pos 수치가 나왔다. 긍정 수치가 높게 나오는 ‘특정 표현’이 있다. 즉, 가설 3은 어느 정도 신뢰성이 있다.
+### 종합검증결과-> neg수치가 1에 가까운 문장을 포함시켰을 때 pos 수치가 0.85로 떨어지긴 했으나 높은 neg 수치에 비해 상대적으로 높은 pos 수치가 나왔다. 긍정 수치가 높게 나오는 ‘특정 표현’이 있다. 즉, 가설 3은 어느 정도 신뢰성이 있다.
 
  
 
