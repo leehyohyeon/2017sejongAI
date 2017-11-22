@@ -29,9 +29,9 @@ Probability:
 
  
 
- -가설1: 최상급 표현을 쓰면 긍정 수치가 높아질 것이다.
+ ## 가설1: 최상급 표현을 쓰면 긍정 수치가 높아질 것이다.
 
--검증1; 최상급 표현 포함 vs 미포함 비교
+### 검증1; 최상급 표현 포함 vs 미포함 비교
 
 -Review: The
 Intern .... sweet, perfect and heart
