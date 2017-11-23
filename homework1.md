@@ -142,6 +142,7 @@ Probability:
 
 
 
+
 ## 가설2. 부정부사 not이 포함되면 긍정 수치가 반드시 낮아질 것이다. 
 
 ### 증명1. not이 포함된 문장 제거
@@ -208,6 +209,7 @@ Probability:
 
  
 
+
 ## 가설3 도출 배경 
 
 Review: Sometimes you don't need a film to try and change the world,
@@ -231,6 +233,7 @@ Probability:
 1.0
 
 #### ->일부 문장을 제외시켜도 동일한 긍정 수치 1.0이 나와 긍정 수치에 특정 문장이 핵심적인 영향을 미칠 것이라 예상했다
+
 
 
 
