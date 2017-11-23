@@ -103,7 +103,6 @@ Probability:
 
 #### 검증결과=> 검증2,3 또한 최상급 표현이 포함된 문장이 미포함 문장보다 긍정 수치가 높았다.
 
- 
 
 ### 증명4. 최상급문장을 미포함시켰을 경우
 
@@ -234,9 +233,7 @@ Probability:
 
 #### ->일부 문장을 제외시켜도 동일한 긍정 수치 1.0이 나와 긍정 수치에 특정 문장이 핵심적인 영향을 미칠 것이라 예상했다
 
-
-
-
+<br>
 ## 가설3. 전체 문장의 긍정 수치를 높게 만드는 ‘특정 표현’이 있다.
 
 #### 특정 표현= Sometimes you don't need a film to try and change the world, make bold political or societal statements or even be shocking.
