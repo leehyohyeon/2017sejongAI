@@ -237,7 +237,7 @@ Probability:
 
 
 
-## 가설3. 긍정 수치가 높게 나오는 ‘특정 표현’이 있다.
+## 가설3. 전체 문장의 긍정 수치를 높게 만드는 ‘특정 표현’이 있다.
 
 #### 특정 표현= Sometimes you don't need a film to try and change the world, make bold political or societal statements or even be shocking.
 
@@ -310,7 +310,7 @@ sentiment: Positive
 Probability:
 0.85
 
-### 종합검증결과-> neg수치가 1에 가까운 문장을 포함시켰을 때 pos 수치가 0.85로 떨어지긴 했으나 높은 neg 수치에 비해 상대적으로 높은 pos 수치가 나왔다. 긍정 수치가 높게 나오는 ‘특정 표현’이 있다. 즉, 가설 3은 어느 정도 신뢰성이 있다.
+### 종합검증결과-> neg수치가 1에 가까운 문장을 포함시켰을 때 pos 수치가 0.85로 떨어지긴 했으나 높은 neg 수치를 띄는 문장이 포함됐음에도 불구, 상대적으로 높은 pos 수치가 나왔다. 전체 문장의 긍정 수치가 높게 만드는 ‘특정 표현’이 있다는 가설 3은 어느 정도 신뢰성이 있다.
 
  
 
